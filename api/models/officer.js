@@ -5,6 +5,7 @@ const officerSchema = mongoose.Schema({
   name: String,
   designation: String,
   department: String,
+  description: String, 
   officeLocation: {
     latitude: Number,
     longitude: Number

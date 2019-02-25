@@ -26,8 +26,13 @@ router.post('/add', (req, res) => {
   const officer = new Officer({
     _id: mongoose.Types.ObjectId(),
     name: req.body.name,
+    email:req.body.email,
     designation: req.body.designation,
     department: req.body.department,
+    description: req.body.description,
+    phoneNo : req.body.phoneNo,
+    address: req.body.address,
+    password:req.body.password,
     officeLocation: req.body.officeLocation,
     status: req.body.status,
     timestamp: new Date(),

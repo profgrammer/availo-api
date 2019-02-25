@@ -8,9 +8,13 @@ const officerHandler = require('./api/routes/officers');
 const mongoose = require('mongoose');
 
 app.use(morgan('dev'));
-mongoose.connect("mongodb://availo:" + process.env.MONGO_ATLAS_PASSWORD + "@availocluster-shard-00-00-ofjdo.mongodb.net:27017,availocluster-shard-00-01-ofjdo.mongodb.net:27017,availocluster-shard-00-02-ofjdo.mongodb.net:27017/test?ssl=true&replicaSet=AvailOCluster-shard-0&authSource=admin&retryWrites=true",  { useNewUrlParser: true });
+mongoose.connect("mongodb://availo:" + process.env.MONGO_ATLAS_PASSWORD + "@availocluster-shard-00-00-ofjdo.mongodb.net:27017,availocluster-shard-00-01-ofjdo.mongodb.net:27017,availocluster-shard-00-02-ofjdo.mongodb.net:27017/test?ssl=true&replicaSet=AvailOCluster-shard-0&authSource=admin&retryWrites=true",  { useNewUrlParser: true })
+.catch(e => {
+  console.log('error.', e)
+});
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
+
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
