@@ -3,9 +3,13 @@ const mongoose = require('mongoose');
 const officerSchema = mongoose.Schema({
   _id: mongoose.Schema.Types.ObjectId,
   name: String,
+  email: String,
+  password: String,
+  phoneNo: String,
+  address: String,
   designation: String,
   department: String,
-  description: String, 
+  description: String,
   officeLocation: {
     latitude: Number,
     longitude: Number
