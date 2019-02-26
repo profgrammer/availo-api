@@ -4,7 +4,7 @@ const router = express.Router();
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-
+const verifyToken = require('../middleware/verifyToken');
 
 router.get('/', (req, res) => {
   Officer.find().exec()
@@ -108,7 +108,7 @@ router.post('/login', (req, res, next) => {
       if(result){
         const token = jwt.sign({
           email: req.body.email,
-          userId: req.body._id
+          userId: officer[0]._id
         }, process.env.JWT_KEY, {
           expiresIn: "1h"
         }, );
@@ -128,5 +128,20 @@ router.post('/login', (req, res, next) => {
   });
 })
 
+router.patch('/', verifyToken, (req, res, next) => {
+  // res.json(req.userToken)
+  Officer.findById(req.userToken.userId).exec()
+  .then(result => {
+    if(result){
+      result.status = req.body.status;
+      result.timestamp = new Date();
+      result.save().then(r => res.status(200).json({message: 'updated'})).catch(err => res.status(500).json(err))
+    }
+    else{
+      res.status(404).json({message: 'not found'})
+    }
+  });
+
+})
 
 module.exports = router;
