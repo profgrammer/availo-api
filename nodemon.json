@@ -1,5 +1,6 @@
 {
   "env":{
-    "MONGO_ATLAS_PASSWORD": "availo"
+    "MONGO_ATLAS_PASSWORD": "availo",
+    "JWT_KEY": "`!==ThisIsSuicideSquadBitch!`"
   }
 }
