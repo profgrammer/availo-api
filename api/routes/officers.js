@@ -141,7 +141,22 @@ router.patch('/', verifyToken, (req, res, next) => {
       res.status(404).json({message: 'not found'})
     }
   });
-
 })
+
+router.post('/verify', (req, res, next) => {
+  try{
+    const token = req.headers.authorization.split(" ");
+    const decoded = jwt.verify(token[1], process.env.JWT_KEY);
+
+    return res.status(200).json({
+      message: 'ok'
+    });
+  }
+  catch(err){
+    return res.status(403).json({
+      message: 'forbidden'
+    });
+  }
+});
 
 module.exports = router;
