@@ -147,9 +147,10 @@ router.post('/verify', (req, res, next) => {
   try{
     const token = req.headers.authorization.split(" ");
     const decoded = jwt.verify(token[1], process.env.JWT_KEY);
-
+    console.log(decoded);
     return res.status(200).json({
-      message: 'ok'
+      message: 'ok',
+      id: decoded.userId 
     });
   }
   catch(err){
