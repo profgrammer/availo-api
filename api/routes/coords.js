@@ -6,6 +6,7 @@ const Coord = require('../models/coord');
 router.post('/', (req, res, next) => {
   const id = req.body._id;
   const location = req.body.location;
+  console.log(location);
   const coord = new Coord({
     _id: new mongoose.Types.ObjectId(),
     officerId: id,
@@ -45,8 +46,8 @@ router.get('/', (req, res, next) => {
 
 router.patch('/', (req, res, next) => {
   const id = req.body._id;
-  const location = req.body.location;
-
+  // const location = ;
+  console.log(req.body.location);
   Coord.find({officerId: id}).exec()
   .then(coord => {
     if(coord){
