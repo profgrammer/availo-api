@@ -1,0 +1,642 @@
+[
+{
+ "req" : "closure of instituion",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "conversion of diploma level",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "conversion of degree level",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "conversion of  diploma into degree",
+ "dep" : "approval bureau"
+},
+
+{
+ "req" : "fellowship programme",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "fellowship program in management",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "setting up new Technical Institution",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "offer technical programme",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "offer technical programme at diploma level",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "offer technical programme at post diploma level",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "offer technical programme at post diploma level",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "offer technical programme at degree level",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "offer technical programme at post graduate degree level",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "change site",
+ "dep" : "approval bureau"
+},
+
+{
+ "req" : "change location",
+ "dep" : "approval bureau"
+},
+
+{
+ "req" : "close instituion",
+ "dep" : "approval bureau"
+},
+
+{
+ "req" : "conversion of women’s institution into Co-Ed institution ",
+ "dep" : "approval bureau"
+},
+
+{
+ "req" : "conversion of women’s institution ",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "conversion of Co-Ed institution ",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "conversion of Co-Ed institution into  women’s institution ",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "extension of approval",
+ "dep" : "approval bureau"
+},
+
+{
+ "req" : "extend approval to existing institution",
+ "dep" : "approval bureau"
+},
+
+{
+ "req" : "continuation of approval",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "continuing of approval after a year break",
+ "dep" : "approval bureau"
+},
+
+{
+ "req" : "restoration of approval",
+ "dep" : "approval bureau"
+},
+
+{
+ "req" : "increase in intake of course",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "addition of course",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "addition of course in regular shift",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "addition of coursein first shift",
+ "dep" : "approval bureau"
+},
+
+{
+ "req" : "increase in intake of course in regular shift ",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "increase in intake of course in first shift ",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "addition of integrated course in first shift ",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "addition of integrated course in regular shift ",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "addition of dual degree course in first shift ",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "addition of dual degree course in regular shift ",
+ "dep" : "approval bureau"
+},
+
+{
+ "req" : "introduction of supernumerary seats for OCI of Indian Workers in the Gulf Countries",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "introduction of supernumerary seats for PIO of Indian Workers in the Gulf Countries",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "introduction of supernumerary seats for foreign nationals of Indian Workers in the Gulf Countries",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "introduction of supernumerary seats for children of Indian Workers in the Gulf Countries",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "continuation of supernumerary seats for OCI of Indian Workers in the Gulf Countries",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "continuation of supernumerary seats for PIO of Indian Workers in the Gulf Countries",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "continuation of supernumerary seats for foreign nationals of Indian Workers in the Gulf Countries",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "continuation of supernumerary seats for children of Indian Workers in the Gulf Countries",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "Indian Workers in the Gulf Countries",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "seats for children of Indian Workers in the Gulf Countries",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "introduction of seats",
+ "dep" : "approval bureau"
+},
+
+{
+ "req" : "continuation of seats",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "introduction of seats for children of NRIs",
+ "dep" : "approval bureau"
+},
+{
+ "req" : "continuation of seats for children of NRIs",
+ "dep" : "approval bureau"
+},
+{
+	"req":"preparation of budget for the council",
+	"dep":"finance bureau"
+},
+{
+	"req":"preparation of budget",
+	"dep":"finance bureau"
+},
+{
+	"req":"budget for the council",
+	"dep":"finance bureau"
+},
+{
+	"req":"maintenance of books of accounts",
+	"dep":"finance bureau"
+},
+{
+	"req":"releasing salaries, wages and other establishment expenditure",
+	"dep":"finance bureau"
+},
+{
+	"req":"investment funds of the council",
+	"dep":"finance bureau"
+},
+{
+	"req":"bank accounts reconciliation",
+	"dep":"finance bureau"
+},
+{
+	"req":"budgetary control",
+	"dep":"finance bureau"
+},
+{
+	"req":"expenditure",
+	"dep":"finance bureau"
+},
+{
+	"req":"expenses",
+	"dep":"finance bureau"
+},
+{
+	"req":"Cash Management",
+	"dep":"finance bureau"
+},
+{
+	"req":"management of cash",
+	"dep":"finance bureau"
+},
+{
+	"req":"releasing grants-in-Aid of various Schemes implemented by the council",
+	"dep":"finance bureau"
+},
+{
+	"req":"accounting system management",
+	"dep":"finance bureau"
+},
+{
+	"req":"preparationAnnual Accounts to MHRD for presenting in parliament",
+	"dep":"finance bureau"
+},
+{
+	"req":"preparation and submission of Annual Accounts to MHRD for presenting in parliament",
+	"dep":"finance bureau"
+},
+{
+	"req":"for coordination with Ministry of HRD, Ministry of Finance Govt. of India and other departments and organisations with reference to financial matters",
+	"dep":"finance bureau"
+},
+{
+	"req":"Pre-audit of proposals for incurring expenditure on recurring and non-recurring heads",
+	"dep":"finance bureau"
+},
+{
+	"req":"advisor on Budget",
+	"dep":"finance bureau"
+},
+{
+	"req":"advisor on accounting",
+	"dep":"finance bureau"
+},
+
+{
+	"req":"pricipal advisor on Budget",
+	"dep":"finance bureau"
+},
+{
+	"req":"pricipal advisor on accounting",
+	"dep":"finance bureau"
+},
+{
+	"req":"pricipal advisor on accounting",
+	"dep":"finance bureau"
+},
+{
+	"req":"higher education through PG scholarship",
+	"dep":"rifd bureau"
+},
+
+{
+	"req":"higher education through National Doctoral Fellowship.",
+	"dep":"rifd bureau"
+},
+{
+	"req":"National Doctoral Fellowship.",
+	"dep":"rifd bureau"
+},
+{
+	"req":"PG scholarship",
+	"dep":"rifd bureau"
+},
+{
+	"req":"entrepreneurship",
+	"dep":"rifd bureau"
+},
+{
+	"req":"start-up",
+	"dep":"rifd bureau"
+},
+{
+	"req":"technical education at graduation level",
+	"dep":"rifd bureau"
+},
+{
+	"req":"differently abled student technical education at graduation level",
+	"dep":"rifd bureau"
+},
+{
+	"req":"girl student technical education at graduation level",
+	"dep":"rifd bureau"
+},
+{
+	"req":"internship in industry",
+	"dep":"rifd bureau"
+},
+{
+	"req":"internship in small and medium enterprises",
+	"dep":"rifd bureau"
+},
+{
+	"req":"faculty in technical introduction",
+	"dep":"rifd bureau"
+},
+{
+	"req":"schemes standard of faculty in technical introduction",
+	"dep":"rifd bureau"
+},
+{
+	"req":"qualification of faculty",
+	"dep":"rifd bureau"
+},
+{
+	"req":"qualification of supporting technical staff",
+	"dep":"rifd bureau"
+},
+{
+	"req":"pay scales of supporting technical staff",
+	"dep":"rifd bureau"
+},
+{
+	"req":"pay scales of faculty",
+	"dep":"rifd bureau"
+},
+{
+	"req":"research",
+	"dep":"rifd bureau"
+},
+{
+	"req":"rifd bureau",
+	"dep":"rifd bureau"
+},
+{
+	"req":"research in technical education",
+	"dep":"rifd bureau"
+},
+{
+	"req":"research",
+	"dep":"rifd bureau"
+},
+{
+    "req":"Personnel Section",
+    "dep": "Administration Bureau"
+},
+{
+    "req":"Establish Section",
+    "dep": "Administration Bureau"
+},
+{
+    "req":"General Admisitration",
+    "dep": "Administration Bureau"
+},
+{
+    "req":"Hindi Section",
+    "dep": "Administration Bureau"
+},
+{
+    "req":"Organizing Resources",
+    "dep": "Administration Bureau"
+},
+{
+    "req":"Management of Business Operations",
+    "dep": "Administration Bureau"
+},
+{
+    "req":"Administration Bureau",
+    "dep": "Administration Bureau"
+},
+{
+    "req":"Implementing major decisions",
+    "dep": "Administration Bureau"
+},
+{
+    "req":"Annual Report",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Annual Report Preparation",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Annual Report Compilation",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Processing of cases with unapproved institutions",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Unapproved Institutions",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Matters related to Equivalence",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Matters related to Distance Education",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Distance Education",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Matters related to Professional Bodies",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Coordination with AIBS",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"AIBS",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Meeting of All India Boards",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"All India Boards",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Pursuing Constituion of council with MHRD",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Pursuing Constituion of council with Ministry of Human Resources and Development",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Work associated with Executive Committee",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Work associated with Council Meetings",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Executive Committee",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Re-constitution of Executive Committee",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Re-constitution of Regional Committee",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Regional Committee",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Nomination of AICTE representatives",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Nomination of Governing Bodies",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Nomination of finance committee",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Nomination of AICTE representatives",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Nomination of selection committee",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+    "req":"Rajive Kumar",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+	"req":"Neeraj Saxena",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+	"req":"Manoj Singh",
+    "dep":"Policy and Academic Planning Bureau"
+},
+{
+	"req":"B.L. Rama",
+    "dep":"finance bureau"
+},
+{
+	"req":"Girish Kumar Bhasin",
+    "dep":"finance bureau"
+},
+{
+	"req":"K.S. Rao",
+    "dep":"finance bureau"
+},
+{
+	"req":"Yogesh Wadhawan",
+    "dep":"finance bureau"
+},
+{
+	"req":"Usha Natesan",
+    "dep":"approval bureau"
+},
+{
+	"req":"R. Hariharan",
+    "dep":"approval bureau"
+},
+{
+	"req":"Gujju Manusree",
+    "dep":"approval bureau"
+},
+{
+	"req":"Neetu Bhagat",
+    "dep":"approval bureau"
+},
+{
+	"req":"Nawal Kishore Arora",
+    "dep":"approval bureau"
+},
+{
+	"req":"Girdhari Lal Garg",
+    "dep":"approval bureau"
+},
+{
+	"req":" R. Sakthivel",
+    "dep":"approval bureau"
+},
+
+{
+	"req":" Javid Qadir Zargar",
+    "dep":"approval bureau"
+},
+{
+ "req" : "A Shreenath ",
+ "dep" : "Administration bureau"
+},
+{
+ "req" : "Sunil kumar ",
+ "dep" : "Administration bureau"
+},
+{
+ "req" : "Kranti singh",
+ "dep" : "Administration bureau"
+},
+{
+ "req" : " Dal Chand",
+ "dep" : "Administration bureau"
+},
+{
+ "req" : "Dileep N. Malkhede",
+ "dep" : "rifd bureau"
+},
+{
+ "req" : "Uma Raghunathan",
+ "dep" : "rifd bureau"
+},
+
+{
+ "req" : "Sanju Choudhary",
+ "dep" : "rifd bureau"
+},
+{
+ "req" : "Ajeet Singh",
+ "dep" : "rifd bureau"
+},
+{
+ "req" : "Paramjeet",
+ "dep" : "rifd bureau"
+},
+{
+ "req" : "Anil Sahasrabudhe",
+ "dep" : "Chairman"
+},
+{
+ "req" : "Anju",
+ "dep" : "Personal Secretary to Chairman"
+},
+{
+ "req" : "M.P. Poonia",
+ "dep" : "Vice-Chairman"
+},
+{
+ "req" : "Neera Kakkar",
+ "dep" : "Personal Secretary to Vice-Chairman"
+},
+{
+ "req" : " A.P. Mittal",
+ "dep" : "Member Secretary"
+}
+]
