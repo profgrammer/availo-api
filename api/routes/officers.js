@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
   Officer.find().exec()
   .then(docs => {
     if(docs){
-      console.log(docs);
+      // console.log(docs);
       res.status(200).json(docs);
     }
     else{
@@ -150,7 +150,7 @@ router.post('/verify', (req, res, next) => {
     console.log(decoded);
     return res.status(200).json({
       message: 'ok',
-      id: decoded.userId 
+      id: decoded.userId
     });
   }
   catch(err){
