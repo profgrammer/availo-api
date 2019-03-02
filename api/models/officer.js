@@ -21,7 +21,7 @@ const officerSchema = mongoose.Schema({
     startTime: Date,
     endTime: Date
   },
-  phoneExtension: {type: String, required: true}
+  // phoneExtension: {type: String, required: true}
 });
 
 module.exports = mongoose.model('Officer', officerSchema);

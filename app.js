@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const productsHandler = require('./api/routes/products');
 const ordersHandler = require('./api/routes/orders');
 const officerHandler = require('./api/routes/officers');
+const adminHandler = require('./api/routes/admin');
 const mongoose = require('mongoose');
 
 app.use(morgan('dev'));
@@ -29,6 +30,8 @@ app.use((req, res, next) => {
 app.use('/officers', officerHandler);
 app.use('/products', productsHandler);
 app.use('/orders', ordersHandler);
+app.use('/admin', adminHandler);
+
 
 
 app.use((req, res, next) => {
