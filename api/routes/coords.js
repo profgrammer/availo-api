@@ -7,7 +7,7 @@ router.post('/', (req, res, next) => {
   const id = req.body._id;
   const location = req.body.location;
   const coord = new Coord({
-    _id: mongoose.Types.ObjectId(id),
+    _id: id,
     location: location,
     timestamp: new Date()
   });
