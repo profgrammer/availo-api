@@ -29,10 +29,10 @@ router.post('/', (req, res, next) => {
 
 router.get('/', (req, res, next) => {
   Coord.find().exec()
-  .then(coords => {
-    if(coords){
-      console.log(coords);
-      res.status(200).json(coords);
+  .then(coord => {
+    if(coord){
+      console.log(coord);
+      res.status(200).json(coord);
     }
     else{
       console.log("error");
@@ -75,7 +75,16 @@ router.get('/:officerId', (req, res, next) => {
       res.status(500).json({message: 'internal error'})
     }
   })
-  .catch(e => res.status(404).json(e));
+  .catch(e => res.status(200).json(e));
 })
+
+router.delete('/', (req, res, next) => {
+  Coord.deleteMany({}).then(result => {
+    if(result){
+      console.log('deleted');
+      res.status(200).json({message: 'deleted'})
+    }
+  });
+});
 
 module.exports = router;

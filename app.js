@@ -7,6 +7,9 @@ const ordersHandler = require('./api/routes/orders');
 const officerHandler = require('./api/routes/officers');
 const adminHandler = require('./api/routes/admin');
 const coordsHandler = require('./api/routes/coords');
+const algosHandler = require('./api/routes/algos');
+const calendarHandler = require('./api/routes/calendar');
+
 const mongoose = require('mongoose');
 
 app.use(morgan('dev'));
@@ -33,7 +36,8 @@ app.use('/products', productsHandler);
 app.use('/orders', ordersHandler);
 app.use('/admin', adminHandler);
 app.use('/coords', coordsHandler);
-
+app.use('/algos', algosHandler);
+app.use('/calendar', calendarHandler);
 
 app.use((req, res, next) => {
   const err = new Error('Not found');

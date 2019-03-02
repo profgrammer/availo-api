@@ -1,6 +1,8 @@
 {
   "env":{
     "MONGO_ATLAS_PASSWORD": "availo",
-    "JWT_KEY": "`!==ThisIsSuicideSquadBitch!`"
+    "JWT_KEY": "`!==ThisIsSuicideSquadBitch!`",
+    "WP_PUBLIC_KEY": "BDQ2A1k5b4RzV73Bf_uIWAA_4lWwOtIdXTXYFZErahePxfja13ALOmcWWXP-SQpNJ-flOwRZnWbyd87szPlAAFw",
+    "WP_PRIVATE_KEY": "1BVV4jFDkJWeQjFsM2zNSsxz24hHT8E_tBV6ZVj5wXo"
   }
 }
