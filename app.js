@@ -6,6 +6,7 @@ const productsHandler = require('./api/routes/products');
 const ordersHandler = require('./api/routes/orders');
 const officerHandler = require('./api/routes/officers');
 const adminHandler = require('./api/routes/admin');
+const coordsHandler = require('./api/routes/coords');
 const mongoose = require('mongoose');
 
 app.use(morgan('dev'));
@@ -31,7 +32,7 @@ app.use('/officers', officerHandler);
 app.use('/products', productsHandler);
 app.use('/orders', ordersHandler);
 app.use('/admin', adminHandler);
-
+app.use('/coords', coordsHandler);
 
 
 app.use((req, res, next) => {

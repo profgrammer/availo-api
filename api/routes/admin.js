@@ -15,7 +15,7 @@ router.patch('/update', (req, res, next) => {
       officer.save().then(r => res.status(200).json({message: 'updated'})).catch(err => res.status(500).json(err));
     }
     else{
-      console.log('officer found');
+      console.log('officer not found');
       res.status(200).json({message: 'officer not found'});
     }
   }).catch(e => res.status(500).json(e));
