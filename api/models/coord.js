@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const coordSchema = mongoose.Schema({
   _id: mongoose.Schema.Types.ObjectId,
-  officerId: String,
+  officerId: [{type: mongoose.Schema.Types.ObjectId, ref: 'Officer'}],
   location: {
     latitude: Number,
     longitude: Number

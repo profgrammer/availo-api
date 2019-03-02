@@ -5,6 +5,7 @@ const Coord = require('../models/coord');
 
 router.post('/', (req, res, next) => {
   const id = req.body._id;
+  console.log(id);
   const location = req.body.location;
   console.log(location);
   const coord = new Coord({
@@ -46,6 +47,7 @@ router.get('/', (req, res, next) => {
 
 router.patch('/', (req, res, next) => {
   const id = req.body._id;
+  console.log(id);
   // const location = ;
   console.log(req.body.location);
   Coord.find({officerId: id}).exec()
@@ -61,5 +63,19 @@ router.patch('/', (req, res, next) => {
     }
   })
 });
+
+router.get('/:officerId', (req, res, next) => {
+  const officerId = req.params.officerId;
+  Coord.find({officerId: officerId}).exec()
+  .then(coord => {
+    if(coord){
+      res.status(200).json(coord);
+    }
+    else{
+      res.status(500).json({message: 'internal error'})
+    }
+  })
+  .catch(e => res.status(404).json(e));
+})
 
 module.exports = router;
