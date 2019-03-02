@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const coordSchema = mongoose.Schema({
-  _id: mongoose.Schema.Types.ObjectId,
+  officerId: mongoose.Schema.Types.ObjectId,
   location: {
     latitude: Number,
     longitude: Number
