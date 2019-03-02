@@ -50,7 +50,7 @@ router.patch('/', (req, res, next) => {
   console.log(id);
   // const location = ;
   console.log(req.body.location);
-  Coord.find({officerId: id}).exec()
+  Coord.findOne({officerId: id}).exec()
   .then(coord => {
     if(coord){
       console.log('coord found');

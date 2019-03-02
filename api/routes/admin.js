@@ -7,6 +7,8 @@ router.patch('/update', (req, res, next) => {
   const id = req.body._id;
   const status = req.body.status;
 
+
+
   Officer.findById(id).exec()
   .then(officer => {
     if(officer) {
