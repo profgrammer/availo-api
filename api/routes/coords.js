@@ -54,7 +54,7 @@ router.patch('/', (req, res, next) => {
   .then(coord => {
     if(coord){
       console.log('coord found');
-      coord.location = location;
+      coord.location = req.body.location;
       coord.timestamp = new Date();
       coord.save().then(r => {console.log('updated'); res.status(200).json({'message': 'updated'})}).catch(e => res.status(500).json(e));
     }
