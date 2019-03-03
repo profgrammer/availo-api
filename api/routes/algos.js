@@ -10,6 +10,15 @@ wp.setVapidDetails(
 'BDQ2A1k5b4RzV73Bf_uIWAA_4lWwOtIdXTXYFZErahePxfja13ALOmcWWXP-SQpNJ-flOwRZnWbyd87szPlAAFw',
 '1BVV4jFDkJWeQjFsM2zNSsxz24hHT8E_tBV6ZVj5wXo');
 
+router.get('/', (req, res, next) => {
+  Sub.find().exec()
+  .then(subs => {
+    if(subs){
+      res.status(200).json(subs);
+    }
+  }).catch(e => res.status(500).json(e));
+})
+
 router.post('/subscribe', (req, res, next) => {
   const sub = req.body;
   const subscription = new Sub(
@@ -28,7 +37,7 @@ router.post('/subscribe', (req, res, next) => {
   .catch(e => res.status(500).json(e));
 });
 
-cron.schedule('*/2 * * * *', () => {
+cron.schedule('*/1 * * * *', () => {
   Sub.find()
   .then(subs => {
     subs.forEach((sub) => {
