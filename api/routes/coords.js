@@ -66,10 +66,10 @@ router.patch('/', (req, res, next) => {
 
 router.get('/:officerId', (req, res, next) => {
   const officerId = req.params.officerId;
-  Coord.find({officerId: officerId}).exec()
+  Coord.find({officerId: officerId}).sort([['timestamp', -1]]).exec()
   .then(coord => {
     if(coord){
-      res.status(200).json(coord);
+      res.status(200).json(coord[0]);
     }
     else{
       res.status(500).json({message: 'internal error'})
