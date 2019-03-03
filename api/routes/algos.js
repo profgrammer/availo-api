@@ -37,7 +37,7 @@ router.post('/subscribe', (req, res, next) => {
   .catch(e => res.status(500).json(e));
 });
 
-cron.schedule('*/1 * * * *', () => {
+cron.schedule('*/2 * * * *', () => {
   Sub.find()
   .then(subs => {
     subs.forEach((sub) => {
