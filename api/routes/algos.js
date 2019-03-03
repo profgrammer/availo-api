@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const wp = require('web-push');
 const Sub = require('../models/subscription');
-
+var cron = require('node-cron');
 
 wp.setVapidDetails(
   'mailto: test@test.com',
@@ -26,7 +26,7 @@ router.post('/subscribe', (req, res, next) => {
   .catch(e => res.status(500).json(e));
 });
 
-router.post('/push', (req, res, next) => {
+cron.schedule('*/2 * * * *', () => {
   Sub.find()
   .then(subs => {
     subs.forEach((sub) => {
@@ -40,7 +40,6 @@ router.post('/push', (req, res, next) => {
       wp.sendNotification(pushConfig, JSON.stringify({message: 'hi'})).catch(e => console.err(e));
     });
   });
-})
-
+});
 
 module.exports = router;
