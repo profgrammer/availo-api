@@ -15,7 +15,7 @@ router.delete('/', (req, res, next) => {
 
 
 router.get('/', (req, res) => {
-  Officer.find().exec()
+  Officer.find().sort('department').exec()
   .then(docs => {
     if(docs){
       // console.log(docs);
