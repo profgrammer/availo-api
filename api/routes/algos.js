@@ -39,7 +39,7 @@ cron.schedule('*/2 * * * *', () => {
           p256dh: sub.keys.p256dh
         }
       }
-      wp.sendNotification(pushConfig, JSON.stringify({message: 'hi'})).catch(e => console.err(e));
+      wp.sendNotification(pushConfig, JSON.stringify({message: 'hi'})).catch(e => console.log(e));
     });
   });
 });
