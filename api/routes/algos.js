@@ -13,6 +13,7 @@ router.post('/subscribe', (req, res, next) => {
   const sub = req.body;
   const subscription = new Sub(
     {
+      _id: mongoose.Types.ObjectId(),
       endpoint: sub.endpoint,
       keys: sub.keys
     }
